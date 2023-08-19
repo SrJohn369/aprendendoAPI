@@ -1,6 +1,12 @@
+# FastAPI será usada para criar nossa API
+# HTTPException será usada para nos retornar uma excessão/erro no request e response
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
+# StaticFiles permite servir arquivos estáticos, como imagens, arquivos CSS, arquivos JavaScript, etc., através do FastAPI.
+from fastapi.staticfiles import StaticFiles
+# 
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+
 
 app = FastAPI()
 
