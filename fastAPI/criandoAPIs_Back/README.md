@@ -67,13 +67,13 @@ Aqui, estamos importando a classe StaticFiles do módulo fastapi.staticfiles, qu
 Importa a classe Path da biblioteca pathlib, que fornece uma maneira fácil e consistente de lidar com caminhos de arquivo e diretório.
 ### Exemplo:
 #### app.mount("/myAPI", StaticFiles(directory=Path(__file __).parent / "paginasTest_Front/pagina_2"), name="myAPI")
-**_StaticFiles(directory=Path(__file __).parent / "paginasTest_Front/pagina_2")_** - Esta parte cria uma instância da classe StaticFiles e a associa ao diretório que contém os arquivos estáticos. Vou dividir isso em partes:
-**_Path(__file __) _**- **__file __** é uma variável que contém o caminho absoluto para o arquivo Python em execução. 
+**StaticFiles(directory=Path(__file __).parent / "paginasTest_Front/pagina_2")** - Esta parte cria uma instância da classe StaticFiles e a associa ao diretório que contém os arquivos estáticos. Vou dividir isso em partes:
+**Path(__file __)**- **__file __** é uma variável que contém o caminho absoluto para o arquivo Python em execução. 
 
-**_Path(__file __)_** cria um objeto Path contendo o caminho absoluto para o arquivo em que esse código está sendo executado.
+**Path(__file __)** cria um objeto Path contendo o caminho absoluto para o arquivo em que esse código está sendo executado.
 
-**_Path(__file __).parent_** - Acesse o diretório pai do caminho absoluto do arquivo, ou seja, o diretório que contém o arquivo Python. Isso é útil para construir o caminho absoluto para a pasta de arquivos estáticos.
+**Path(__file __).parent** - Acesse o diretório pai do caminho absoluto do arquivo, ou seja, o diretório que contém o arquivo Python. Isso é útil para construir o caminho absoluto para a pasta de arquivos estáticos.
 
-**_"static"_** - Adiciona a parte final do caminho que aponta para a pasta de arquivos estáticos.
+**"paginasTest_Front/pagina_2"** - Adiciona a parte final do caminho que aponta para a pasta de arquivos estáticos.
 
-**_Path(__file __).parent / "static"_** - Combina o caminho absoluto para o diretório pai com a string "static" para criar um caminho absoluto para a pasta de arquivos estáticos.
+**Path(__file __).parent / "paginasTest_Front/pagina_2"** - Combina o caminho absoluto para o diretório pai com a string "static" para criar um caminho absoluto para a pasta de arquivos estáticos.
