@@ -48,3 +48,17 @@ BaseModel. Você pode definir campos com tipos de dados específicos e adicionar
 **_Geração de esquemas JSON_ :** Você pode usar model.schema() para gerar um esquema JSON a partir do seu modelo, útil para documentação de API.
 
 **_Transformação de dados_ :** A classe BaseModel permite que você faça transformações de dados ao definir campos com propriedades como alias, default, pre e post.
+
+## from fastapi.staticfiles import StaticFiles
+Aqui, estamos importando a classe StaticFiles do módulo fastapi.staticfiles, que nos permite servir arquivos estáticos, como imagens, arquivos CSS, arquivos JavaScript, etc., através do FastAPI.
+### Montando o diretório estático no aplicativo FastAPI:
+#### app.mount("/static", StaticFiles(directory="static"), name="static")
+**_app_ :** É a instância do aplicativo FastAPI criada
+
+**_.mount()_ :** É um método do aplicativo que permite montar um subaplicativo em uma rota específica.
+
+**_"/static"_ :** É o caminho da rota onde os arquivos estáticos serão acessíveis. Por exemplo, se você acessar /static/index.html em seu navegador, o servidor FastAPI tratará isso.
+
+**_StaticFiles(directory="static")_ :** Aqui você está criando uma instância da classe StaticFiles, onde o argumento directory especifica o diretório no qual os arquivos estáticos estão localizados. No exemplo, o diretório é "static". O camilho para o diretório deve ser absoluto.
+
+**_name="static":_ ** Isso atribui um nome a esse subaplicativo montado. Isso pode ser útil se você precisar se referir a ele em outros lugares.

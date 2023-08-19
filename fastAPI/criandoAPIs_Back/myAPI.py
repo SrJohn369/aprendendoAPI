@@ -1,5 +1,7 @@
 from fastapi import FastAPI
+# Usado para servir arquivos estáticos através d API
 from fastapi.staticfiles import StaticFiles
+# Usando aqui para obter o camilho absoluto
 from pathlib import Path
 
 app = FastAPI()
