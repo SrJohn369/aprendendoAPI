@@ -13,7 +13,7 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-# Configurar as origens permitidas
+# Configurar as origens permitidas, Caso o request venha de dominios diferentes
 origins = [
     "http://127.0.0.1:5500",  # Coloque aqui a URL do seu front-end
 ]
