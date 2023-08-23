@@ -1,8 +1,6 @@
 # FastAPI será usada para criar nossa API
 # HTTPException será usada para nos retornar uma excessão/erro no request e response
 from fastapi import FastAPI, HTTPException
-# StaticFiles permite servir arquivos estáticos, como imagens, arquivos CSS, arquivos JavaScript, etc., através do FastAPI.
-from fastapi.staticfiles import StaticFiles
 # CORSMiddleware  Essa classe é um middleware que lida com as configurações de CORS para o seu aplicativo 
 # FastAPI. O CORS é uma consideração importante quando você tem um front-end (geralmente em um domínio) que 
 # faz solicitações para um back-end (potencialmente em um domínio diferente).
@@ -13,18 +11,6 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-# Configurar as origens permitidas, Caso o request venha de dominios diferentes
-origins = [
-    "http://127.0.0.1:5500",  # Coloque aqui a URL do seu front-end
-]
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
 
 proximo_id = 3
 

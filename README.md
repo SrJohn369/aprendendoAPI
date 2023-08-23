@@ -14,4 +14,4 @@ Também planejo trazer conteúdo fullstack onde irei trabalhar com:
 
 --JavaScript
 
---Python
+--Python --SQLite3
