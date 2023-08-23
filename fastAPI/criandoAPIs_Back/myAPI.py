@@ -9,4 +9,5 @@ app.mount("/myAPI", StaticFiles(directory=Path(__file__).parent / "paginasTest_F
 
 @app.get("/hello")
 def hello():
-    return {"message": "Hello, world!"}
+    return {"message": "Back-end diz olá!"}
+
