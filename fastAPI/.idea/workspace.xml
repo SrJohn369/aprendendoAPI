@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa9a0399-5c42-4c97-82a7-1e42fa66b2fc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/criandoAPIs_Back/AnimalClass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criandoAPIs_Back/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criandoAPIs_Back/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criandoAPIs_Back/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criandoAPIs_Back/myAPI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criandoAPIs_Back/myAPI_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criandoAPIs_Back/paginasTest_Front/pagina_1/testAPI.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criandoAPIs_Back/paginasTest_Front/pagina_1/testAPI.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criandoAPIs_Back/paginasTest_Front/pagina_1/testAPI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criandoAPIs_Back/paginasTest_Front/pagina_2/myAPI_front_CSS.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criandoAPIs_Back/paginasTest_Front/pagina_2/myAPI_front_HTML.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criandoAPIs_Back/paginasTest_Front/pagina_2/myAPI_front_JS.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2VUaevPKZeTIJUF6rw7FRbdBKXm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/jvict/Desktop/aprendendoAPI",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa9a0399-5c42-4c97-82a7-1e42fa66b2fc" name="Changes" comment="" />
+      <created>1694893212033</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694893212033</updated>
+    </task>
+    <servers />
+  </component>
+</project>
