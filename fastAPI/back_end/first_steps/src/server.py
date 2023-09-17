@@ -20,7 +20,7 @@ app.add_middleware(
 
 
 class Animal(BaseModel):
-    id: Optional[int] = None  # parametro opcional
+    id: Optional[str] = None  # parametro opcional
     nome: str
     idade: int
     sexo: str
